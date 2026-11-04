@@ -1,1 +1,43 @@
+ 1 #Tapsirmalar-8
+ 2 # input "str" ham int bolganliqtan qate boladi TypeError
+ 3 #1. Qateni tabiw
+ 4 narx = input("Narxni kiriting: ")
+ 5 umumiy = narx + 500
+ 6 print(umumiy)
+ 7 #Duris kod jazildi
+ 8 narx = int(input("Narxni kiriting: "))
+ 9 umumiy = narx + 500
+10 print(umumiy)
+11
+12 #2. Paydalanuvchining bir oylik ish daromadi uni 12 ga koʻpayitirib bir yillik daromadi
+13
+14 ish_haqqi = int(input("Sizning bir oylik daromadingiz qancha sum? "))
+15 umumiy_narx = ish_haqqi * 12
+16 print(umumiy_narx)
+17
+18 #3.Tomendegi koddagi qateni tabiw
+19 sheker_bahasi = 12000
+20 sheker_kg = 2
+21 jalpi_sum = sheker_bahasi * sheker_kG # tobedegi kodqa qarasaq kg bolip jazilgan kG qate!
+22 print(jalpi_sum)
+23
+24 #4.tapsrma
+25 alma = 50
+26 satilgan = int(input("Nechta olma sotdingiz? "))
+27 qoldi = alma - satilgan
+28
+29 print("Qutida", qoldi, "ta olma qoldi.")
+30
+31 #5.Paydalaniwshidan neshe biylet kerek ekenin sorae ham jami hahasin esaplaw
+32 baha = 25000
+33 bilet = int(input("Nechta chipta olasiz? "))
+34 jami = baha * bilet
+35
+36 print("Jami to'lov:", jami, "so'm.")
+37
+38 #6. idista 25 mayek bar otbasindagi adam sanina qarap boliw
+39 mayek = 25
+40 odam = int(input("Oila a'zolaringiz soni nechta? "))                                               41
+42 har_biriga = mayek // odam
+43 ortib_qoldi = mayek % odam
 
