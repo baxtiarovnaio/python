@@ -51,3 +51,10 @@ name = input("Atin kim? ")
 age = int((input("Jasin neshede? ")))
 brithday = year - age 
 print(brithday, "jili tuwilgan eken")
+#4 klas tapsirmasi
+ati = input("Atinizdi kiritin: ")
+uy_haywani = input((ati + "Jaqsi korgrn uy haywanin qanday: "))
+pishiq = int(input("Pishiq kunine nesh ret myawlaydi? "))
+dawisi = input("Pishiq qanday dawis shigardi?")
+dawis = "myaw"
+print(ati + ' ' + uy_haywani + ' ' + str(pishiq) + ' ' + (dawisi *10))
