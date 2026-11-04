@@ -26,14 +26,14 @@ print(forstname, age, "jasta")
 
 Hemwork
 #1.
-name = "Maqpal"
+name = "Jazira"
 age = 15
-boyi = 1.60
+boyi = 1.66
 
 #2.
-print(type("Maqpal"))
+print(type("Jazira"))
 print(type(15))
-print(type(1.60))
+print(type(1.66))
 
 #Tapsirma Ozgeriwshininin turin ekinshi bir ozgeriwshige otiw
 #1.
