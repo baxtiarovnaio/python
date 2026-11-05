@@ -282,3 +282,9 @@ soz = input("So'z kiriting: ")
 son = int(input("Necha marta takrorlaymiz? "))
 
 print("Natija:", soz * son)
+
+# 3 tapsirma 
+
+ism = input("Ismingizni kiriting: ")
+
+print("Sizning ismingiz", len(ism), "ta harfdan iborat.")
