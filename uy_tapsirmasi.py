@@ -264,7 +264,9 @@ bet = int(input("Bir kunda nechta sahifa o'qiysiz? "))
 kun = (kitap + bet - 1) // bet
 
 print("Siz bu kitobni", kun, "kunda o'qib tugatasiz.")
+
 #1tapsirma
+
 ism = input("Ismingiz: ")
 familiya = input("Familiyangiz: ")
 
@@ -273,4 +275,10 @@ tolik_ism = ism + " " + familiya
 print("Ismingiz:", ism)
 print("Familiyangiz:", familiya)
 print("To'liq ism:", tolik_ism)
+
 #2 tapsirma 
+
+soz = input("So'z kiriting: ")
+son = int(input("Necha marta takrorlaymiz? "))
+
+print("Natija:", soz * son)
